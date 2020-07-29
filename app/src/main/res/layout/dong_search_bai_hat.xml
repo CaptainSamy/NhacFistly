@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:id="@+id/imageviewSearchbaihat"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <TextView
+        android:textSize="18sp"
+        android:textColor="#0a0a0a"
+        android:text="Ten bai hat"
+        android:layout_toRightOf="@+id/imageviewSearchbaihat"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:maxWidth="250dp"
+        android:id="@+id/textviewSearchTenBaiHat"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#7E7D7D"
+        android:text="Ten ca si"
+        android:layout_toRightOf="@+id/imageviewSearchbaihat"
+        android:layout_below="@+id/textviewSearchTenBaiHat"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:maxWidth="250dp"
+        android:id="@+id/textviewSearchTenCaSi"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

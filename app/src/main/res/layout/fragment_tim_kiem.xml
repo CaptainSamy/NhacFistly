@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#68a7a7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textviewkhongcodulieu"
+                android:textSize="35sp"
+                android:text="Không có dữ liệu bài hát"
+                android:textColor="#F0E68C"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerviewsearchbaihat"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"/>
+
+
+            <EditText
+                android:hint="Nhập tên bài hát"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                android:background="@drawable/duongvien_goctron"
+                android:id="@+id/edittextSearchbaihat"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+
+            <ImageButton
+                android:background="@drawable/duongvien_goctron2"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                android:id="@+id/imagebuttonSearchbaihat"
+                android:src="@drawable/icontimkiem"
+                android:layout_width="120dp"
+                android:layout_height="35dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
